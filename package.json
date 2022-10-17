@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap5-landing-page-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayaramein/bootstrap5-landing-page.git"
+  },
+  "author": "mayaramein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayaramein/bootstrap5-landing-page/issues"
+  },
+  "homepage": "https://github.com/mayaramein/bootstrap5-landing-page#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

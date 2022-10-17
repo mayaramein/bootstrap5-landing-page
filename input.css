@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(//db.onlinewebfonts.com/c/89248b0583721153668df86453b579de?family=Halyard+Text);
+
+body{
+    text-decoration: none;
+}
+.bgHero {
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    
+}
