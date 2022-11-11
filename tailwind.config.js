@@ -15,6 +15,8 @@ module.exports = {
         bgHero: 'linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%)',
         secondary: 'hsla(221, 30%, 39%, 1)',
         secondaryLight: 'hsla(221, 30%, 39%, 0.5)',
+        OColor: 'hsla(43, 100%, 96%, 1)',
+        cta: 'hsla(39, 98%, 76%, 1)',
         
       },
     },
