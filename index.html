@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Fonts awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Navbar -->
@@ -95,22 +97,44 @@
 
     <!-- Services Section -->
    <section id="services">
-      <div class="container-fluid flex flex-col px-4 mx-auto mt-10 md:space-y-0 md:flex-row">
+      <div class="container-fluid justify-center px-4 mx-auto mt-10 md:space-y-0 md:flex-row">
         <!-- Section title -->
-        <div class="flex flex-col items-center mt-12">
+        <div class="flex justify-center p-9 mt-12">
           <h1 class="max-w-xl text-5xl mt-20 font-bold text-center text-primaryDark">Whatever work you do, 
             we're able to help</h1>
         </div>
+        <div class="flex flex-row items-center">
         <!-- Image -->
-        <div class="flex flex-row ">
-          <div class="flex-1">
+          <div class="flex-1 p-[6em] pt-0">
           <img src="./assets/imgs/services.png" class="img-fluid" alt="services-img" />
           </div>
-          <div class="flex flex-col items-start">
-            <div class="border-b-2 border-gray-100">
-              <img src="./assets/imgs/Icon (1).png" alt="service-1" />
-              <h3 class="">Design and Assets</h3>
-              <p>Make your brand stand out with pixel-perfect design crafted to perfection.</p>
+          <div class="flex-1 pt-[12em] text-primaryDark">
+            <div class="flex flex-row border-b-2 border-gray-100 m-[5em]">
+              <div class="">
+                <img class="object-cover" src="./assets/imgs/Icon.png" alt="service-1" />
+              </div>
+              <div class="">
+                <h3 class="pl-12 pb-9">Design and Assets</h3>
+                <p class="pl-12 pb-9">Make your brand stand out with pixel-perfect design crafted to perfection.</p>
+              </div>
+            </div>
+            <div class="flex flex-row border-b-2 border-gray-100 m-[5em]">
+              <div class="">
+                <img class="object-cover" src="./assets/imgs/Icon2.png" alt="service-2" />
+              </div>
+              <div class="">
+                <h3 class="pl-12 pb-9">Easy Content</h3>
+                <p class="pl-12 pb-9">Import your demos or build pages visually. Bonus: All images and illustrations included!</p>
+              </div>
+            </div>
+            <div class="flex flex-row m-[5em]">
+              <div class="">
+                <img class="object-cover" src="./assets/imgs/Icon3.png" alt="service-3" />
+              </div>
+              <div class="">
+                <h3 class="pl-12 pb-9">Fast and Reliable</h3>
+                <p class="pl-12 pb-9">No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
+              </div>
             </div>
           </div> 
         </div>
@@ -186,7 +210,7 @@
             your next website?</h1>
          </div>
           <!-- CTA -->
-          <div class=" my-auto">
+          <div class="pr-[9em] my-auto justify-end">
             <button class="px-9 py-3 mx-3 text-primaryDark text-sm font-semibold bg-white rounded-full baseline"><img class="img-fluid inline pr-3" src="./assets/imgs/x31 5 Send Mail.png" alt="send-mail">Get in touch now</button>
             <p class="text-white ml-3">Or, take a peek inside our <span class="text-cta">design studio</span></p>
           </div>
@@ -197,48 +221,54 @@
     <!-- Footer -->
     <footer aria-label="Site Footer" class="bg-gray-30 px-48 ">
       <div class="mx-auto max-w-screen-xl space-y-12 px-4 py-16 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 gap-8 pt-12 sm:grid-cols-2 lg:grid-cols-4">
-          <div class="">
+        <div class="grid grid-cols-1 border-b-2 border-gray-100 pb-9 pt-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="mr-[6em]">
             <a class="navbar-brand py-8" href="#"><img class="pb-4" src="./assets/imgs/logo.svg" alt="logo"></a>
             <p>Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
           </div>
           <div>
-            <p class="font-medium text-primaryDark">Services</p>
+            <p class="font-medium text-primaryDark">Pages</p>
     
             <nav class="mt-4 flex flex-col space-y-4 text-sm">
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> 1on1 Coaching </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Company Review </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Accounts Review </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> HR Consulting </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> SEO Optimisation </a>
-            </nav>
-          </div>
-          <div>
-            <p class="font-medium text-primaryDark">Helpful Links</p>
-    
-            <nav class="mt-4 flex flex-col space-y-2 text-sm">
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Home </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> About </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> News </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Pricing </a>
               <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Contact </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> FAQs </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Live Chat </a>
             </nav>
           </div>
           <div>
-            <p class="font-medium text-primaryDark">Legal</p>
+            <p class="font-medium text-primaryDark">Demo</p>
     
             <nav class="mt-4 flex flex-col space-y-2 text-sm">
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Privacy Policy </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Terms & Conditions </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Returns Policy </a>
-              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Accessibility </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Classic</a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Boxy </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Gradient </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Minimal </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Night </a>
+            </nav>
+          </div>
+          <div>
+            <p class="font-medium text-primaryDark">Resources</p>
+            <div class="text-primaryDark flex space-x-6">
+              <span><i class="fa-brands fa-square-facebook"></i></span>
+              <span><i class="fa-brands fa-square-instagram"></i></span>
+              <span><i class="fa-brands fa-square-twitter"></i></span>
+              <span><i class="fa-brands fa-square-dribbble"></i></span>
+              <span><i class="fa-brands fa-envira"></i></span>
+            </div>
+            <nav class="mt-4 flex flex-col space-y-2 text-sm">
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Download now </a>
+              <a class="hover:opacity-75 text-secondary no-underline font-semibold" href=""> Documentation </a>
             </nav>
           </div>
         </div>
         <div class="flex flex-wrap justify-between">
-          <p class="flex-1 text-xs">Copyright © 2020 tempy.club</p>
-          <div class="flex-1 space-x-6">
-            <span>Privacy Policy</span>
-            <span>Terms of use</span>
-            <span>GPDF</span>
+          <p class="text-xs text-secondary">Copyright © 2020 tempy.club</p>
+          <div class="">
+            <span class="pl-3 text-secondary">Privacy Policy</span>
+            <span class="pl-3 text-secondary">Terms of use</span>
+            <span class="pl-3 text-secondary">GPDF</span>
           </div>
         </div>
       </div>

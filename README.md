@@ -3,7 +3,7 @@
   
   # Frontend UI Development
   
-<p> Landing Page using <p>
+<p> Digital Agency Landing Page using <p>
 
   
   ![](https://img.shields.io/badge/Bootstrap_5-5333ed?style=flat&logo=bootstrap&logoColor=white) ![](https://img.shields.io/badge/Tailwind_CSS-5333ed?style=flat&logo=tailwindcss&logoColor=white) ![](https://img.shields.io/badge/Visual_Studio_Code-5333ed?style=flat&logo=visual%20studio%20code&logoColor=white)
@@ -21,6 +21,8 @@
 <div align="center">
 
    [![](https://img.shields.io/badge/Website_Demo-5333ed?style=for-the-badge)](https://mayaramein.github.io/tailwindcss-bootstrap5-landing-page/)
+
+[![](https://img.shields.io/badge/Design_File-b4272d?style=flat&logo=iti&logoColor=)](https://www.figma.com/file/LBhXR0uVYf34NL5L4lMPWK/Digits-Demo-%26-Preview?node-id=3%3A4541) <strong>&copy;</strong> Darinka Kostelníková
 
 </div>
 
